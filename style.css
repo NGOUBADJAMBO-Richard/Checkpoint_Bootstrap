@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@100&display=swap");
+* {
+  font-family: "Constantia", sans-serif;
+}
+.hero {
+  background-image: url("./img/Hero.jpg");
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --var1: #f72798;
+  --var2: #f57d1f;
+  --var3: #ebf400;
+  --var4: #000000;
+}
+
+.container {
+  gap: 30px;
+  justify-content: space-between;
+}
+footer {
+  color: white;
+  text-align: center;
+}
